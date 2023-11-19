@@ -1,6 +1,6 @@
 <h1>mageCrafter: Optimal Image Resizing for File Uploads</h1>
 
-<p>ImageCrafter is a lightweight JavaScript library designed to streamline the process of resizing images before uploading, making it the ideal solution for adhering to your application's specific size requirements.</p>
+<p>ImageCrafter is a lightweight TypeScript library designed to streamline the process of resizing images before uploading, making it the ideal solution for adhering to your application's specific size requirements.</p>
 
 <h2>Features:</h2>
 
