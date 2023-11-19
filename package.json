@@ -1,5 +1,5 @@
 {
-  "name": "imagecrafter",
+  "name": "image-crafter",
   "version": "1.0.0",
   "description": "Optimal Image Resizing for File Uploads",
   "main": "dist/index.js",
@@ -23,5 +23,6 @@
   "license": "ISC",
   "dependencies": {
     "typescript": "^5.2.2"
-  }
+  },
+  "keywords": ["image-resize", "react-image-resize", "vuejs-image-resize", "angular-image-resize", "typescript-image-resize", "photo-resize","crop-images", "image-cropper","resize","crop", "typescript","javascript","file-uploader","resize-image"]
 }
