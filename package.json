@@ -1,0 +1,11 @@
+{
+  "name": "imagecrafter",
+  "version": "1.0.0",
+  "description": "Optimal Image Resizing for File Uploads",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "harsha pradeep harshapradeep210@gmil.com",
+  "license": "ISC"
+}
