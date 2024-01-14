@@ -1,0 +1,28 @@
+{
+  "name": "image-crafter",
+  "version": "1.0.0",
+  "description": "Optimal Image Resizing for File Uploads",
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "homepage": "https://github.com/HarshaPra/ImageCrafter#readme",
+
+  "files": ["/dist/**/*"],
+
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/HarshaPra/ImageCrafter"
+  },
+  "bugs": {
+    "url": "https://github.com/HarshaPra/ImageCrafter/issues"
+  },
+  "scripts": {
+    "prepare": "npm run build",
+    "build": "tsc"
+  },
+  "author": "harsha pradeep harshapradeep210@gmil.com",
+  "license": "MIT",
+  "dependencies": {
+    "typescript": "^5.2.2"
+  },
+  "keywords": ["image-resize", "react-image-resize", "vuejs-image-resize", "angular-image-resize", "typescript-image-resize", "photo-resize","crop-images", "image-cropper","resize","crop", "typescript","javascript","file-uploader","resize-image"]
+}
