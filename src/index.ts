@@ -10,7 +10,7 @@ export async function resizeFile({
   width,
   height,
   imageName,
-}: ResizeFileCrop): Promise<File | undefined> {
+}: ResizeFileCrop): Promise<File> {
 
   return new Promise((resolve) => {
     const reader = new FileReader();
@@ -72,8 +72,6 @@ export async function resizeFile({
             type: blob.type,
           });
           resolve(resizedImageFile);
-        } else {
-          resolve(undefined);
         }
       };
     };
