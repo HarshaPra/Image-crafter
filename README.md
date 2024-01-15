@@ -86,5 +86,5 @@ inputElement.addEventListener('change', (event) => {
 <p>Adjust the resize parameters according to your application's specific size requirements.</p>
 
 
-<p>Now, you can effortlessly enhance your image upload functionality with Image-crafter, ensuring images meet your application's size specifications for an optimized user experience...!</p>
+<p>Now, you can effortlessly enhance your image upload functionality with Image-crafter, ensuring images meet your application's size specifications for an optimized user experience!</p>
 
