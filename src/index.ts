@@ -5,12 +5,12 @@ interface ResizeFileCrop {
   imageName: string;
 }
 
-export async function resizeFile({
+export async function resize({
   file,
   width,
   height,
   imageName,
-}: ResizeFileCrop): Promise<File | undefined> {
+}: ResizeFileCrop): Promise<File> {
 
   return new Promise((resolve) => {
     const reader = new FileReader();
@@ -72,8 +72,6 @@ export async function resizeFile({
             type: blob.type,
           });
           resolve(resizedImageFile);
-        } else {
-          resolve(undefined);
         }
       };
     };
