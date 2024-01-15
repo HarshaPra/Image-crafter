@@ -5,7 +5,7 @@ interface ResizeFileCrop {
   imageName: string;
 }
 
-export async function resizeFile({
+export async function resize({
   file,
   width,
   height,
