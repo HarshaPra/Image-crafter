@@ -48,7 +48,7 @@
 <h2>Usage:</h2>
 
 <p><strong>Install ImageCrafter:</strong></p>
-<pre><code>npm install imagecrafter
+<pre><code>npm install image-crafter
 </code></pre>
 
 <p>Include ImageCrafter in your JavaScript file:</p>
