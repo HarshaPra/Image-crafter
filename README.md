@@ -53,7 +53,7 @@
 
 <p>Include ImageCrafter in your JavaScript file:</p>
 
-<pre><code>import {resizeFile} from 'image-crafter';
+<pre><code>import {resize} from 'image-crafter';
 
 const inputElement = document.getElementById('fileInput');
 
@@ -61,7 +61,7 @@ inputElement.addEventListener('change', (event) => {
   const file = event.target.files[0];
 
   // Resize the image to match your application's specific requirements
-  resizeFile({file, width: 300, height: 200, imageName: file.name})
+  resize({file, width: 300, height: 200, imageName: file.name})
     .then((resizedFile) => {
       // Use the resizedFile for uploading or further processing
       console.log(resizedFile);
@@ -77,4 +77,3 @@ inputElement.addEventListener('change', (event) => {
 <p>Adjust the resize parameters according to your application's specific size requirements.</p>
 
 <p>Now, you can effortlessly enhance your image upload functionality with ImageCrafter, ensuring images meet your application's size specifications for an optimized user experience!</p>
-
